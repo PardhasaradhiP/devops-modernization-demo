@@ -16,7 +16,8 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: "3.11"
-
+    - name: Simulated Deployment
+      run: echo "Application deployed to TEST environment"
     - name: Install pytest
       run: pip install pytest
 
